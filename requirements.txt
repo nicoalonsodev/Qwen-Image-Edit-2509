@@ -7,3 +7,4 @@ accelerate>=0.28.0
 sentencepiece
 protobuf
 git+https://github.com/huggingface/diffusers
+# force rebuild

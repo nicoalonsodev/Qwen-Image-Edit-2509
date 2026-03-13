@@ -1,4 +1,4 @@
-FROM runpod/base:0.6.2-cuda12.1.0
+FROM runpod/base:0.6.2-cuda12.4.1
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \

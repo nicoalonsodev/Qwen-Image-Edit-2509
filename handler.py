@@ -9,7 +9,7 @@ from diffusers import QwenImageEditPlusPipeline
 # ── Carga del modelo una sola vez al iniciar el worker ──────────────────────
 print("Cargando modelo Qwen-Image-Edit-2509...")
 
-MODEL_PATH = os.environ.get("MODEL_PATH", "/models/Qwen-Image-Edit-2509")
+MODEL_PATH = os.environ.get("MODEL_PATH", "/workspace/Qwen-Image-Edit-2509")
 
 pipeline = QwenImageEditPlusPipeline.from_pretrained(
     MODEL_PATH,
